@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back-link {
+    margin-top: 40px;  /* Adjust the value as needed */
+    display: inline-block;
+}
+
+body {
+    background-color: black;
+    color: rgb(5, 228, 5);
+    /* Other styles to fit the hacker theme */
+}
+
+.game-container {
+    margin-top: 20px;
+}
+
+.game-title {
+    margin-left: 40px;
+}
+
+
+.game-content {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.game-image {
+    width: 30%;  /* Keeping this as per your setting */
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.game-video {
+    width: 70%;  /* Adjusted this to fill up remaining space */
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h3 {
+    text-align: center;
+}
+
+h3 a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+h1 a:hover {
+    color: green; /* Color when hovered */
+}
+
+.media-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#logo {
+    width: 150px; /* Adjust as needed */
+    margin: auto;
+    display: block;
+}
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Optional: Takes the full viewport height */
+}
+
+section {
+    margin: 20px; /* Optional: Adds some space between sections */
+    text-align: center;
+}
+
+.typewriter-text {
+    border-right: 0.2em solid #02a508;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter-animation 5s steps(60, end),
+               typewriter-cursor 0.6s steps(30, end) infinite;
+}
+
+@keyframes typewriter-animation {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes typewriter-cursor {
+    from, to { border-color: transparent }
+    50% { border-color: #02a508; }
+}
+
+footer {
+    background-color: black;
+    color: rgb(5, 228, 5);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
